@@ -4,4 +4,7 @@
 ## StartMotion.py
 将作为服务进程，先于Slicer启动。
 
+## Qt LeapMotion
+将作为与Slicer进行数据交互但一个Daemon，遵循OpenIGTLink协议。
+
 

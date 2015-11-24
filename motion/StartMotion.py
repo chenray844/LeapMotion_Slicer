@@ -17,5 +17,6 @@ sys.path.insert(0,'../lib')
 import Leap
 
 with open('/tmp/SlicerLeapMotion.log','a') as f:
-    f.write('Leap %s ' % Leap.__name__)
-
+    f.write('\n\n\nLeap %s \n\n' % Leap.__name__)
+print 'leap = ', Leap.__name__
+print 'Done'

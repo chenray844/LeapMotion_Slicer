@@ -4,3 +4,13 @@
 *.xml
 
 *.iml
+
+*.stash
+
+IGTL/LeapMotion/LeapMotion.pro.user
+
+IGTL/LeapMotion/main.o
+
+IGTL/LeapMotion/Makefile
+
+IGTL/LeapMotion/LeapMotion

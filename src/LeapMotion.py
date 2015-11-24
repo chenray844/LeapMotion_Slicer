@@ -4,6 +4,7 @@ from __main__ import vtk, qt, ctk, slicer
 
 import time
 import os
+import sys
 
 class LeapMotion:
     def __init__(self, parent):
@@ -45,11 +46,15 @@ class LeapMotionWidget:
         leapFormLayout = qt.QFormLayout(leapCollapsibleButton)
 
         leapButton = qt.QPushButton('Leap Motion')
+        leapButton.setCheckable(True)
         leapButton.connect('clicked(bool)',self.onLeapButtonClicked)
         leapFormLayout.addWidget(leapButton)
 
         self.layout.addStretch(1)
 
-    def onLeapButtonClicked(self):
+    def onLeapButtonClicked(self,state):
         print 'hello Leap Motion'
+        print 'button state = ', state
+
+
 
