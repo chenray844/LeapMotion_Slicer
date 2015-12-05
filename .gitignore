@@ -20,3 +20,5 @@ IGTL/LeapMotion/moc/moc_tracker.cpp
 *.o
 
 IGTL/LeapMotion/share.dat
+
+IGTL/LeapMotion/bin/LeapMotion
