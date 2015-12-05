@@ -5,6 +5,8 @@ from __main__ import vtk, qt, ctk, slicer
 import time
 import os
 import sys
+import multiprocessing
+import subprocess
 
 class LeapMotion:
     def __init__(self, parent):
@@ -53,8 +55,9 @@ class LeapMotionWidget:
         self.layout.addStretch(1)
 
     def onLeapButtonClicked(self,state):
-        print 'hello Leap Motion'
-        print 'button state = ', state
+        pass
+
+
 
 
 
