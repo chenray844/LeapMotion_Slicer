@@ -14,3 +14,9 @@ IGTL/LeapMotion/main.o
 IGTL/LeapMotion/Makefile
 
 IGTL/LeapMotion/LeapMotion
+
+IGTL/LeapMotion/moc/moc_tracker.cpp
+
+*.o
+
+IGTL/LeapMotion/share.dat
